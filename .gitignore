@@ -1,0 +1,11 @@
+.DS_Store
+bosh-deployment/
+gcp/
+learn-bosh-release/
+vbox/
+**creds*
+**.key
+**.crt
+**state*
+**.pem
+**.pub

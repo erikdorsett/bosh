@@ -1,0 +1,19 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ec2:*",
+                "cloudformation:*",
+                "elasticloadbalancing:*",
+                "route53:*",
+                "iam:*",
+                "logs:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+**.key
+bbl-state.json
+**.crt
+**.pem
+.bbl-info/
+**.pub
+**creds*
+concourse-manifest.yml
+misc/
