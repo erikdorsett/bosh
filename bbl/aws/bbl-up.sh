@@ -1,3 +1,4 @@
+#!/bin/bash
 # $1 <bbl user aws ACCESS KEY ID>
 # 2 <bbl user aws SECRET ACCESS KEY>
 bbl up \

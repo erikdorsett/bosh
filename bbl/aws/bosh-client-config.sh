@@ -1,3 +1,4 @@
+#!/bin/bash
 # configure bosh cli
 eval "$(bbl print-env)"
 

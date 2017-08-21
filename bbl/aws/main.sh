@@ -3,8 +3,9 @@
 
 ./cr_aws-bbl-usr.sh
 ./bbl-up.sh <aws-access-key-id> <aws-secret-access-key>
-bosh -e aws cloud-config > .bbl-info/cloud-config.yml
 ./bosh-client-config.sh
+bosh -e aws cloud-config > .bbl-info/cloud-config.yml
+./config-bosh-dir.sh
 ./cr_aws-lb.sh example.com
 
 [Edit manifest before deploying]
