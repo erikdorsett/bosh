@@ -1,5 +1,7 @@
 # Bootstrap bosh bootloader (B-bbl)
 
+## Instantiates bosh director in aws using bbl and deploys confluence server (clusters with bosh)
+
 Reference: [bbl](https://github.com/cloudfoundry/bosh-bootloader)
 
 Warning: These scripts will generate confidential files you'll need to exclude by adding to a .gitignore file
@@ -8,7 +10,7 @@ Warning: These scripts will generate confidential files you'll need to exclude b
 
 Prereq: must have saved aws policy for director as .json locally
 
-## Main.sh calls:
+## (Entry point) main.sh calls:
 - ./cr_aws-bbl-usr.sh
 - ./bbl-up.sh <aws-access-key-id> <aws-secret-access-key>
 - ./bosh-client-config.sh
