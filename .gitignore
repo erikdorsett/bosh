@@ -3,6 +3,7 @@ bosh-deployment/
 gcp/
 learn-bosh-release/
 vbox/
+aws/
 **creds*
 **.key
 **.crt
