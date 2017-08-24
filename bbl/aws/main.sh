@@ -2,7 +2,7 @@
 # Use bbl and bosh to get concourse up and running in aws
 
 ./cr_aws-bbl-usr.sh
-./bbl-up.sh <aws-access-key-id> <aws-secret-access-key>
+./bbl-up.sh <aws-access-key-id> <aws-secret-access-key> <region>
 ./bosh-client-config.sh
 bosh -e aws cloud-config > .bbl-info/cloud-config.yml
 ./config-bosh-dir.sh
